@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
         Provider(create: (_) => RechercheController(apiService)), // Ajout du RechercheController
       ],
       child: MaterialApp(
-        title: 'Application Résultats',
+        title: 'LotView',
         theme: ThemeData(primarySwatch: Colors.blue),
         initialRoute: '/login',
         routes: {
