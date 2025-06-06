@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Création d'une instance unique d'ApiService pour être utilisée dans toute l'application
-    final ApiService apiService = ApiService('http://192.168.230.13:93/api');
+    final ApiService apiService = ApiService('http://192.168.230.13:92/api');
 
     return MultiProvider(
       providers: [
